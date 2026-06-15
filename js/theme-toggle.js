@@ -1,7 +1,7 @@
-const btn=document.getElementById("theme-btn");
+const btn = document.getElementById("theme-btn");
 
-btn.addEventListener("click",()=>{
-
-    document.body.classList.toggle("dark-theme");
-
-});
+if(btn){
+    btn.addEventListener("click", () => {
+        document.body.classList.toggle("dark-theme");
+    });
+}
